@@ -9,18 +9,193 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000000003AEB2D78 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000000005EA0C1E8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
 [LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E5591F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (000000007871BC58)
+[LOG] SoundI::release                          :     switch dial (000000007870A998)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000787324F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (000000007871BC58)
+[LOG] SoundI::release                          :     switch dial (000000007870A998)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000787885F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='54987__manda-g__owls (1)', format=2, channels=1, frequency=48000, lengthbytes=181888, lengthpcm=1215664, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.195770.
+[LOG] SoundI::release                          :  (0000000078719B48)
+[LOG] SoundI::release                          :     54987__manda-g__owls (1) (0000000078707C18)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E557938
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (000000007871BC58)
+[LOG] SoundI::release                          :     switch dial (0000000078709C98)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E5566A8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (0000000078718CE8)
+[LOG] SoundI::release                          :     switch dial (0000000078708918)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E559618
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (0000000078719B48)
+[LOG] SoundI::release                          :     switch dial (000000007870A4B8)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E55DC38
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (000000007871BC58)
+[LOG] SoundI::release                          :     switch dial (0000000078708918)
+[ERR] RuntimeBankModel::openFile               : Failed to open file 'D:\Users\Travis\GitHub Repos\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 103)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 188096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 2432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007D20F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFE3050D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFE3050D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFE3050E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFE3050F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006E557728
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='switch dial', format=2, channels=2, frequency=48000, lengthbytes=5824, lengthpcm=28007, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.830902.
+[LOG] SoundI::release                          :  (000000007871BDC8)
+[LOG] SoundI::release                          :     switch dial (000000007870A658)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
