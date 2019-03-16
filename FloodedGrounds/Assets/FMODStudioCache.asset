@@ -14,17 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114220916836069026}
-  - {fileID: 114660301493055032}
-  - {fileID: 114431377957053054}
+  - {fileID: 114660528340076784}
+  - {fileID: 114351180978240934}
   EditorEvents:
   - {fileID: 114380667367955600}
   - {fileID: 114289247099324434}
   MasterBanks:
   - {fileID: 114157131266347926}
   - {fileID: 114660301493055032}
+  - {fileID: 114660528340076784}
   StringsBanks:
   - {fileID: 114220916836069026}
-  stringsBankWriteTime: 636870442327755335
+  stringsBankWriteTime: 636883260397123107
   cacheVersion: 3
 --- !u!114 &114157131266347926
 MonoBehaviour:
@@ -59,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\Audio\VRZFPS\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636870442327755335
+  lastModified: 636883260397123107
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -80,7 +81,7 @@ MonoBehaviour:
   Path: event:/Owls, Environment
   guid: a32b8a87c5fca041972905e8687703fe
   Banks:
-  - {fileID: 114431377957053054}
+  - {fileID: 114351180978240934}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -88,6 +89,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 27000
+--- !u!114 &114351180978240934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Tina Nguyen\Desktop\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Test
+    Bank.bank
+  lastModified: 636883260397143055
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 190528
+  Exists: 1
 --- !u!114 &114380667367955600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,7 +124,7 @@ MonoBehaviour:
   Path: event:/Click
   guid: 2f8b255fbed2024280e4e1510b06684b
   Banks:
-  - {fileID: 114431377957053054}
+  - {fileID: 114351180978240934}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -130,7 +151,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 190528
-  Exists: 1
+  Exists: 0
 --- !u!114 &114446293259718288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +187,26 @@ MonoBehaviour:
   Path: Z:\School\CSC631\NewGame2\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master
     Bank.bank
   lastModified: 636870442327785327
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 12474
+  Exists: 0
+--- !u!114 &114660528340076784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Tina Nguyen\Desktop\CSC631-SP19-NewGame2\FloodedGrounds\Assets\Audio\VRZFPS\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636883260397123107
   LoadResult: 0
   FileSizes:
   - Name: Desktop
