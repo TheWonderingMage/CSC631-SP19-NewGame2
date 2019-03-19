@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MainMenus.unity
+- path: Assets/HUD/Scenes/FPS.unity
   isLoaded: 1
   isActive: 1
