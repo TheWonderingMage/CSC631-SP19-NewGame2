@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/HUD/Scenes/FPS.unity
+- path: Assets/Flooded_Grounds/Scenes/Scene_A.unity
   isLoaded: 1
   isActive: 1
